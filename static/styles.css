@@ -3,9 +3,16 @@ body {
     margin: 0;
 }
 
-#nav, #footer {
+#nav {
     background-color: #eee;
     padding: 1em;
+}
+#footer {
+    background-color: #eee;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+	width: 100%;
 }
 
 #content {
